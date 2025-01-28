@@ -4,15 +4,15 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "workplay_new";
+    $dbname = "jeloda12";
     $connLocal = new mysqli($servername, $username, $password, $dbname);
     $connLocal->query("SET NAMES 'utf8mb4'");
 
 
-    $servername = "5.161.53.211";
-    $username = "bonospac_boletos_paco_root";
-    $password = "Bonos_paco_1234";
-    $dbname = "bonospac_boletos_paco";
+    $servername = "192.99.84.36";
+    $username = "ondersof_jeloda_root";
+    $password = "Jeloda_1234";
+    $dbname = "ondersof_jeloda_app";
     $connCloud = new mysqli($servername, $username, $password, $dbname);
     $connCloud->query("SET NAMES 'utf8mb4'");
 

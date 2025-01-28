@@ -3,7 +3,7 @@
 
     require_once 'conn.php'; // Incluye los archivos de conexión a ambas bases de datos
 
-    $tabla = 'empresa'; // Nombre de la tabla a sincronizar
+    $tabla = 'log_eliminaciones'; // Nombre de la tabla a sincronizar
     // Convertir los datos en arrays asociativos basados en la clave primaria
     $clavePrimaria = 'id'; // Cambia esto por la clave primaria de tu tabla
 
